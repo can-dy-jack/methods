@@ -1,7 +1,7 @@
 import {terser} from "rollup-plugin-terser";
 
 export default {
-  input: 'src/index.js',
+  input: 'src/index.spec.js',
   output: [
     {
       file: 'dist/methods.cjs.js',

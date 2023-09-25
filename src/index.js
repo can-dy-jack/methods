@@ -1,7 +1,17 @@
 import {
-  chunk
-} from "./array/index.js";
+  chunk,
+  compact,
+  concat
+} from "./array";
+import {
+  noop
+} from "./tool";
 
-export {
-  chunk
+const methods = {
+  chunk,
+  compact,
+  concat,
+  noop
 }
+
+export default methods;
