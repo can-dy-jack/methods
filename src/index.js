@@ -6,12 +6,16 @@ import {
 import {
   noop
 } from "./tool";
+import {
+  curry
+} from "./func";
 
 const methods = {
   chunk,
   compact,
   concat,
-  noop
+  curry,
+  noop,
 }
 
 export default methods;
