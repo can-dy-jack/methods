@@ -1,8 +1,4 @@
-import {
-  chunk,
-  compact,
-  concat
-} from "./array";
+import * as Array from "./array";
 import {
   noop
 } from "./tool";
@@ -11,9 +7,7 @@ import {
 } from "./func";
 
 const methods = {
-  chunk,
-  compact,
-  concat,
+  ...Array,
   curry,
   noop,
 }
